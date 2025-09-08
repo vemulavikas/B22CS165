@@ -1,0 +1,109 @@
+
+body {
+  background: #f7f8fa;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.App {
+  max-width: 800px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+  padding: 32px 24px 24px 24px;
+}
+
+nav {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 32px;
+  justify-content: center;
+}
+nav button {
+  background: #1976d2;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+nav button:hover {
+  background: #1565c0;
+}
+
+h2, h3 {
+  color: #1976d2;
+  margin-bottom: 16px;
+}
+
+form {
+  margin-bottom: 24px;
+}
+form label {
+  margin-right: 8px;
+  font-weight: 500;
+}
+form input[type="url"],
+form input[type="number"],
+form input[type="text"] {
+  margin-right: 12px;
+  padding: 6px 10px;
+  border: 1px solid #bdbdbd;
+  border-radius: 4px;
+  font-size: 1rem;
+  width: 180px;
+}
+form input[type="number"] {
+  width: 80px;
+}
+form input[type="text"] {
+  width: 120px;
+}
+form button[type="submit"] {
+  background: #43a047;
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 8px 20px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 12px;
+  transition: background 0.2s;
+}
+form button[type="submit"]:hover {
+  background: #388e3c;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 12px;
+  background: #fafafa;
+}
+th, td {
+  padding: 10px 8px;
+  border: 1px solid #e0e0e0;
+  text-align: left;
+}
+th {
+  background: #e3f2fd;
+  color: #1976d2;
+}
+tr:nth-child(even) {
+  background: #f5f5f5;
+}
+
+ul {
+  padding-left: 18px;
+}
+
+.error {
+  color: #d32f2f;
+  background: #ffebee;
+  border: 1px solid #ffcdd2;
+  padding: 8px 12px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
